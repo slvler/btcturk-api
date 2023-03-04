@@ -172,3 +172,20 @@ Get a single order by orderId.  For all transactions related to the private endp
 ```php
 $data = $client->orders()->getSingleOrder('61912740');
 ```
+
+
+### Testing
+
+```bash
+    composer test
+```
+
+## Credits
+
+-   [slvler](https://github.com/slvler)
+
+
+## License
+
+The MIT License (MIT). Please see [License File](https://github.com/slvler/btcturk-api/blob/main/LICENSE) for more information.
+
