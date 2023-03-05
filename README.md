@@ -1,8 +1,8 @@
 # PHP API client for btcturk.com
 
-[![tests](https://github.com/slvler/Imdb-service/actions/workflows/tests.yml/badge.svg)](https://github.com/slvler/Imdb-service/actions/workflows/tests.yml)
-[![Latest Stable Version](http://poser.pugx.org/slvler/imdb-service/v)](https://packagist.org/packages/slvler/imdb-service)
-[![License](http://poser.pugx.org/slvler/imdb-service/license)](https://packagist.org/packages/slvler/imdb-service)
+[![tests](https://github.com/slvler/btcturk-api/actions/workflows/php.yml/badge.svg)](https://github.com/slvler/btcturk-api/actions/workflows/php.yml)
+[![Latest Stable Version](http://poser.pugx.org/slvler/btcturk-api/v)](https://packagist.org/packages/slvler/btcturk-api)
+[![License](http://poser.pugx.org/slvler/btcturk-api/license)](https://packagist.org/packages/slvler/btcturk-api)
 
 
 ![image info](./btcturk-logo.png)
