@@ -2,10 +2,17 @@
 
 [![tests](https://github.com/slvler/btcturk-api/actions/workflows/tests.yml/badge.svg)](https://github.com/slvler/btcturk-api/actions/workflows/tests.yml)
 [![Latest Stable Version](http://poser.pugx.org/slvler/btcturk-api/v)](https://packagist.org/packages/slvler/btcturk-api)
-[![License](http://poser.pugx.org/slvler/btcturk-api/license)](https://packagist.org/packages/slvler/btcturk-api)
+[![Total Downloads](http://poser.pugx.org/slvler/btcturk-api/downloads)](https://packagist.org/packages/slvler/btcturk-api) 
+[![Latest Unstable Version](http://poser.pugx.org/slvler/btcturk-api/v/unstable)](https://packagist.org/packages/slvler/btcturk-api) 
+[![License](http://poser.pugx.org/slvler/btcturk-api/license)](https://packagist.org/packages/slvler/btcturk-api) 
 
+<br>
+<br>
 
-![image info](./btcturk-logo.png)
+![image info](./art/btcturk-logo.png)
+
+<br>
+<br>
 
 A simple API client, written with PHP for [btcturk.com](https://btckturk.com).
 
