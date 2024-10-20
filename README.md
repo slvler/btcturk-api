@@ -1,10 +1,10 @@
 # PHP API client for btcturk.com
 
 [![tests](https://github.com/slvler/btcturk-api/actions/workflows/tests.yml/badge.svg)](https://github.com/slvler/btcturk-api/actions/workflows/tests.yml)
-[![Latest Stable Version](http://poser.pugx.org/slvler/btcturk-api/v)](https://packagist.org/packages/slvler/btcturk-api)
-[![Total Downloads](http://poser.pugx.org/slvler/btcturk-api/downloads)](https://packagist.org/packages/slvler/btcturk-api) 
-[![Latest Unstable Version](http://poser.pugx.org/slvler/btcturk-api/v/unstable)](https://packagist.org/packages/slvler/btcturk-api) 
-[![License](http://poser.pugx.org/slvler/btcturk-api/license)](https://packagist.org/packages/slvler/btcturk-api) 
+[![Latest Stable Version](https://poser.pugx.org/slvler/btcturk-api/v)](https://packagist.org/packages/slvler/btcturk-api)
+[![Latest Unstable Version](https://poser.pugx.org/slvler/btcturk-api/v/unstable)](https://packagist.org/packages/slvler/btcturk-api) 
+[![License](https://poser.pugx.org/slvler/btcturk-api/license)](https://packagist.org/packages/slvler/btcturk-api)
+[![Total Downloads](https://poser.pugx.org/slvler/btcturk-api/downloads)](https://packagist.org/packages/slvler/btcturk-api)
 
 <br>
 <br>
@@ -27,7 +27,6 @@ BtcTurk API [Terms of Service](https://pro.btcturk.com/en/legal-information/term
 * PHP >= 7.2
 * ext-json
 
-
 ## Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
@@ -43,12 +42,11 @@ or add
 "slvler/btckturk-api": "^1.0"
 ```
 
-
 ## Basic usage
 
 
 ### Example
-```php
+```php  
 use slvler\BtcTurkApi\BtcTurkClient;
 
 $client = new BtcTurkClient();
@@ -65,7 +63,6 @@ You can use exchangeinfo endpoint for all tradable pairs and their quantity or p
 ```php
 $data = $client->exchange()->getList();
 ```
-
 
 ### Tickers
 
@@ -95,7 +92,6 @@ Get a list of all open orders for a product.
 $data = $client->orderBook()->getOrderBook('BTCUSDT', ['limit' => 10]);
 ```
 
-
 ### Trades
 
 #### [trades](https://docs.btcturk.com/public-endpoints/trades)
@@ -105,7 +101,6 @@ Gets a list the latest trades for a product.
 ```php
 $data = $client->trades()->getTrades('BTCUSDT', ['last' => 10]);
 ```
-
 
 ### OHLC Data
 
@@ -126,7 +121,6 @@ For more information you can check our Authentication V1 article. All asset info
 ```php
 $data = $client->balance()->getBalances();
 ```
-
 
 ### Transactions
 
@@ -152,7 +146,6 @@ For more information you can check our Authentication V1 article. 4 parameters c
 $data = $client->transaction()->getCryptoTransactions(['symbol' => ['btc','etc']]);
 ```
 
-
 ### Orders
 
 #### [Open Orders](https://docs.btcturk.com/private-endpoints/open-orders)
@@ -162,7 +155,6 @@ List your current open orders. Only open or un-settled orders are returned by de
 ```php
 $data = $client->orders()->getOpenOrders('BTCTRY');
 ```
-
 
 #### [All Orders](https://docs.btcturk.com/private-endpoints/all-orders)
 
@@ -180,17 +172,15 @@ Get a single order by orderId.  For all transactions related to the private endp
 $data = $client->orders()->getSingleOrder('61912740');
 ```
 
-
 ### Testing
 
 ```bash
-    composer test
+composer test
 ```
 
 ## Credits
 
--   [slvler](https://github.com/slvler)
-
+- [slvler](https://github.com/slvler)
 
 ## License
 
